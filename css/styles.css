@@ -1,0 +1,8 @@
+body {
+  color: 212121;
+}
+
+.test-link:hover,
+.test-link:focus {
+  color: tomato;
+}
