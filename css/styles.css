@@ -11,8 +11,8 @@
 :root {
   --primary-text-color: #757575;
   --section-text-color: #212121;
-  --title-text-color: #757575;
   --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
 }
 
 body {
@@ -36,10 +36,26 @@ ul {
 .site-nav .link {
   color: var(--section-text-color);
 }
-
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--section-text-color);
+}
+.site-nav .link.current {
   color: var(--accent-color);
+}
+
+/* контактная информация */
+.contact-mail,
+.contact-phone {
+  color: var(--accent-color);
+}
+.contact-mail .link:hover,
+.contact-mail .link:focus {
+  color: var(--section-text-color);
+}
+.contact-phone .link:hover,
+.contact-phone .link:focus {
+  color: var(--section-text-color);
 }
 
 /* стили заголовков и текстов внутри секций */
@@ -47,5 +63,24 @@ ul {
   color: var(--section-text-color);
 }
 .section-title {
-  color: var(--title-text-color);
+  color: var(--section-text-color);
+}
+.section-title-second {
+  color: var(--primary-text-color);
+}
+
+/* герой */
+.hero {
+  color: var(--primary-white-color);
+}
+
+/* кнопки */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* курсор */
+.button {
+  cursor: pointer;
 }
