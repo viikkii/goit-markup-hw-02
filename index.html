@@ -13,14 +13,22 @@
       <nav>
         <a href="./index.html" class="logo">WebStudio</a>
         <ul class="site-nav">
-          <li><a href="#" class="link">Студия</a></li>
-          <li><a href="#" class="link">Портфолио</a></li>
-          <li><a href="#" class="link">Контакты</a></li>
+          <li><a href="#" class="link.current">Студия</a></li>
+          <li><a href="./portfolio.html" class="link.current">Портфолио</a></li>
+          <li><a href="#" class="link.current">Контакты</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="contact-mail"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380991111111" class="contact-phone"
+            >+38 099 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
 
@@ -28,8 +36,8 @@
     <main>
       <!--Герой-->
       <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+        <h1 class="hero">Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="button">Заказать услугу</button>
       </section>
 
       <!--Преимущества-->
@@ -37,29 +45,29 @@
         <h2 hidden>Преимущества команды WebStudio</h2>
         <ul>
           <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="section-title">Внимание к деталям</h3>
+            <p class="section-title-second">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="section-title">Пунктуальность</h3>
+            <p class="section-title-second">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="section-title">Планирование</h3>
+            <p class="section-title-second">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="section-title">Современные технологии</h3>
+            <p class="section-title-second">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -109,8 +117,8 @@
               width="270"
               height="260"
             />
-            <h3>Игорь Демьяненко</h3>
-            <p lang="eu">Product Designer</p>
+            <h3 class="section-title">Игорь Демьяненко</h3>
+            <p lang="eu" class="section-title-second">Product Designer</p>
           </li>
           <li>
             <img
@@ -119,8 +127,8 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Репина</h3>
-            <p lang="eu">Frontend Developer</p>
+            <h3 class="section-title">Ольга Репина</h3>
+            <p lang="eu" class="section-title-second">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -129,8 +137,8 @@
               width="270"
               height="260"
             />
-            <h3>Николай Тарасов</h3>
-            <p lang="eu">Marketing</p>
+            <h3 class="section-title">Николай Тарасов</h3>
+            <p lang="eu" class="section-title-second">Marketing</p>
           </li>
           <li>
             <img
@@ -139,8 +147,8 @@
               width="270"
               height="260"
             />
-            <h3>Михаил Ермаков</h3>
-            <p lang="eu">UI Designer</p>
+            <h3 class="section-title">Михаил Ермаков</h3>
+            <p lang="eu" class="section-title-second">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -160,10 +168,14 @@
             </a>
           </li>
           <li>
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <a href="tel:+380991111111" class="contact-phone"
+              >+38 099 111 11 11</a
+            >
           </li>
           <li>
-            <a href="mailto:info@example.com">info@example.com</a>
+            <a href="mailto:info@example.com" class="contact-mail"
+              >info@example.com</a
+            >
           </li>
         </ul>
       </address>
