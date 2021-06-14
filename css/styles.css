@@ -20,11 +20,15 @@ body {
   color: var(--primary-text-color);
 }
 
-.logo {
-  color: var(--accent-color);
-}
+/* логотип */
 .logo:hover,
 .logo:focus {
+  color: var(--accent-color);
+}
+.logo {
+  color: #000000;
+}
+.logo-style {
   color: var(--accent-color);
 }
 
@@ -36,11 +40,8 @@ ul {
 .site-nav .link {
   color: var(--section-text-color);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--section-text-color);
-}
-.site-nav .link.current {
+.link-current:hover,
+.link-current:focus {
   color: var(--accent-color);
 }
 
@@ -49,13 +50,13 @@ ul {
 .contact-phone {
   color: var(--accent-color);
 }
-.contact-mail .link:hover,
-.contact-mail .link:focus {
-  color: var(--section-text-color);
+.contact-mail-link:hover,
+.contact-mail-link:focus {
+  color: var(--accent-color);
 }
-.contact-phone .link:hover,
-.contact-phone .link:focus {
-  color: var(--section-text-color);
+.contact-phone-link:hover,
+.contact-phone-link:focus {
+  color: var(--accent-color);
 }
 
 /* стили заголовков и текстов внутри секций */
@@ -72,6 +73,7 @@ ul {
 /* герой */
 .hero {
   color: var(--primary-white-color);
+  background-color: var(--section-text-color);
 }
 
 /* кнопки */
@@ -79,8 +81,40 @@ ul {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background-color: #188ce8;
+}
+
+/* кнопки галерея */
+.button-galery {
+  color: var(--section-text-color);
+  background-color: #f5f4fa;
+}
+.button-galery:focus {
+  color: var(--primary-white-color);
+  background-color: #188ce8;
+}
 
 /* курсор */
-.button {
+.button,
+.button-galery {
   cursor: pointer;
+}
+
+/* футер */
+.contact-address,
+.contact-mail-footer,
+.contact-phone-footer {
+  color: var(--primary-white-color);
+  background-color: var(--section-text-color);
+}
+.contact-address:hover,
+.contact-address:focus .contact-mail-footer:hover,
+.contact-mail-footer:focus,
+.contact-phone-footer:hover,
+.contact-phone-footer:focus {
+  color: var(--section-text-color);
+  background-color: #f5f4fa;
 }
