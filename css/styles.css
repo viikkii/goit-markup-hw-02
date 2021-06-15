@@ -18,6 +18,10 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
 }
 
 /* логотип */
@@ -27,6 +31,12 @@ body {
 }
 .logo {
   color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .logo-style {
   color: var(--accent-color);
@@ -37,8 +47,12 @@ ul {
 }
 
 /* навигация сайта */
-.site-nav .link {
+.site-nav {
   color: var(--section-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  text-decoration: none;
 }
 .link-current:hover,
 .link-current:focus {
@@ -65,21 +79,32 @@ ul {
 }
 .section-title {
   color: var(--section-text-color);
-}
-.section-title-second {
-  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* герой */
 .hero {
   color: var(--primary-white-color);
   background-color: var(--section-text-color);
+  font-style: 400;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
 }
 
 /* кнопки */
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-decoration: none;
 }
 .button:hover,
 .button:focus {
@@ -91,7 +116,9 @@ ul {
 .button-galery {
   color: var(--section-text-color);
   background-color: #f5f4fa;
+  font-family: inherit;
 }
+.button-galery:hover,
 .button-galery:focus {
   color: var(--primary-white-color);
   background-color: #188ce8;
@@ -109,12 +136,15 @@ ul {
 .contact-phone-footer {
   color: var(--primary-white-color);
   background-color: var(--section-text-color);
+  text-decoration: none;
 }
 .contact-address:hover,
-.contact-address:focus .contact-mail-footer:hover,
+.contact-address:focus,
+.contact-mail-footer:hover,
 .contact-mail-footer:focus,
 .contact-phone-footer:hover,
 .contact-phone-footer:focus {
   color: var(--section-text-color);
   background-color: #f5f4fa;
+  text-decoration: none;
 }
