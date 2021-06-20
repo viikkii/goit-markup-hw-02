@@ -62,6 +62,13 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
+/* ===ссылки навигации черного-цвета - согласно ТЗ=== */
+.site-nav-current,
+.mail-active,
+.phone-active {
+  color: var(--section-text-color);
+}
 .site-nav-current:hover,
 .site-nav-current:focus {
   color: var(--accent-color);
@@ -82,11 +89,15 @@ body {
 
 /* ===герой=== */
 .hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
   color: var(--primary-white-color);
-  background-color: var(--section-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -114,9 +125,13 @@ body {
 }
 
 /* ===стили заголовков и текстов внутри секций=== */
+
 .section-headline {
   color: var(--section-text-color);
+  text-transform: uppercase;
   font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .section-text {
@@ -156,6 +171,8 @@ body {
 }
 
 .section-text-galery {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.88;
 }
@@ -183,14 +200,24 @@ body {
 }
 
 /* ===футер=== */
-.footer-address,
+.footer {
+  background-color: #2f303a;
+}
+.footer-address {
+  color: var(--primary-white-color);
+}
 .footer-phone,
 .footer-mail {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address,
+.footer-phone,
+.footer-mail {
   font-style: normal;
   text-decoration: none;
-  background-color: teal;
 }
+
 .footer-address:hover,
 .footer-address:focus,
 .footer-phone:hover,
